@@ -6,12 +6,11 @@ import java.util.Scanner;
 public abstract class Character {
     protected String name;
     protected int life;
-
     protected int attack;
-
     protected int defense;
     protected int usePotCount = 1;
     protected final int maxPot = 3;
+
     public Character(String name, int life, int attack, int defense) {
         this.name = name;
         this.life = life;

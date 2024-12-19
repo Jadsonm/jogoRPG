@@ -6,7 +6,6 @@ import characters.Character;
 
 public class Battle {
     public static void iniciarBatalha(Character p1, Character p2) {
-        int MaxPotion = 3;
         Scanner scanner = new Scanner(System.in);
         System.out.println("INICIAR BATALHA!!");
         while (p1.isAlive() && p2.isAlive()) {
